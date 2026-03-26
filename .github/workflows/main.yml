@@ -35,7 +35,7 @@ jobs:
       run: |
         pip install setuptools wheel
         python -m pip install --upgrade pip setuptools
-        pip install flake8==6.0.0 flake8-isort
+        pip install flake8==7.0.0 flake8-isort
     # Этот шаг дополним переменными для доступа к БД
     - name: Test with flake8 and django tests
       # Добавляем env-переменные для доступа к БД
